@@ -4,6 +4,8 @@ This repository shares procedural notes only. It does not distribute source code
 
 English | [日本語](README.ja.md)
 
+[Try the interactive demo — Fumikiri Wataru](https://wataru.highdrama.net/) · Prerecorded voice samples and motion, without a live AI connection.
+
 Fumikiri Wataru began with a question: could the fluid hair and body motion in generated video be reused during a stream? This experiment separates offline generation from runtime playback. H3 supplies prerecorded motion; a browser connects clips and composites an audio-driven mouth. Images, videos and speech are AI-generated.
 
 This is neither a 3D rig nor a Live2D model. These notes share the method, not character assets or model weights. The local AI version and the prerecorded public demo are different applications.
