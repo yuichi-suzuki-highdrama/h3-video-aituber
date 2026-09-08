@@ -87,9 +87,15 @@ Build a working ComfyUI GUI workflow first and export its API graph. Node names 
 
 ## Public demo boundary
 
-The demo offers prerecorded introduction/high-kick/handstand samples. It has no model, API key, local IP, conversation history, generation server, arbitrary text field or file upload. No download feature is provided, but delivered media cannot be made technically impossible to retrieve or record.
+The public demo has no conversational AI connected. Connecting an LLM and TTS through the local integration described above enables conversation; the hosted demo only plays previously generated speech and video.
 
-Hosting, including Sites, does not replace content permissions. H3 output publication proceeds under terms the creator has confirmed; these notes do not claim that every hobbyist or jurisdiction is exempt. Readers must check the terms applicable to their models and services.
+Seven speech samples use the same designed Wataru voice: introduction, high kick, handstand, welcome back, encouragement, heart and thank you. These are seven utterances, not seven different voices. High kick, handstand, welcome back, heart and thank you trigger their corresponding gesture after speech. Idle motion starts automatically when the assets have loaded; visitors can turn it off.
+
+It has no model, API key, local IP, conversation history, generation server, arbitrary text field or file upload. No download feature is provided, but delivered media cannot be made technically impossible to retrieve or record.
+
+The demo is hosted at https://wataru.highdrama.net/ on a separate Cloudflare Pages Direct Upload project. It is not hosted on ChatGPT Sites. Publish only the prepared static demo folder through the Cloudflare dashboard or Wrangler; no GitHub integration is required. For CLI uploads, specify the folder by its absolute path so that the shell working directory does not change the upload target. Keep credentials and local AI services outside the public folder.
+
+Hosting does not replace content permissions. H3 output publication proceeds under terms the creator has confirmed; these notes do not claim that every hobbyist or jurisdiction is exempt. Readers must check the terms applicable to their models and services.
 
 ## Limitations
 
